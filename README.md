@@ -55,13 +55,13 @@ If you want to learn more about building native executables, please consult http
 
 ## Provided Code
 
-
-##
-
-To create docker image -  docker build  -f src/main/docker/Dockerfile.multistage --tag=<Image name>:<version> .
-
 ### RESTEasy Reactive
 
 Easily start your Reactive RESTful Web Services
 
 [Related guide section...](https://quarkus.io/guides/getting-started-reactive#reactive-jax-rs-resources)
+
+## To create docker image -  
+
+docker build  -f src/main/docker/Dockerfile.multistage --tag=<Image name>:<version> .
+
